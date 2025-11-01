@@ -55,7 +55,7 @@ spec:
         - name: workspace-volume
           mountPath: /home/jenkins/agent
     - name: infra-tools
-      image: alpine/helm:3.11.1
+      image: meghdo/infra-tools:v1.0
       command: ["sleep"]
       args: ["9999999"]
       volumeMounts:
